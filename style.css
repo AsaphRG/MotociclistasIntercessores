@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
     background-color: black;
     background-size: contain;
     height: 600px;
-    position: relative;
 }
 
 header img {
@@ -24,9 +24,118 @@ header img {
     height: 500px;
 }
 
-.versiculo {
+#versiculo {
     margin: 0%;
     padding: 0%;
-    background-color: #ddd;
+    background-color: #eee;
+    height: 300px;
 }
 
+blockquote {
+    position: relative;
+    margin: auto;
+    font-size: 50px;
+    width: 70%;
+    text-align: center;
+    top: 60px;
+    text-shadow: 2px 2px 5px #555;
+}
+
+blockquote span {
+    font-size: 30px;
+}
+
+#galeria {
+    position: static;
+    background-color: #ccc;
+    padding: 100px 0;
+}
+
+#galeria div {
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+
+#galeria img {
+    padding: 0px 15px;
+    max-width: 500px;
+    height: auto;
+    border-radius: 0px 50px;
+}
+
+#galeria h1 {
+    font-weight: normal;
+    position: relative;
+    bottom: 50px;
+    font-size: 50px;
+    width: fit-content;
+    margin: auto;
+}
+
+#galeria h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#contato {
+    background-color: #eee;
+}
+
+#contato div {
+    width: fit-content;
+    margin: auto;
+}
+
+#contato h1 {
+    font-weight: normal;
+    width: fit-content;
+    font-size: 50px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.menor {
+    text-align: left;
+    font-size: 20px;
+}
+
+.endereco {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    bottom: 190px;
+    padding-right: 100px;
+}
+
+.endereco p {
+    margin: 10px 0 0 0;
+    font-size: 30px;
+}
+
+#contato form {
+    display: inline-block;
+    padding: 20px 0 50px 0;
+    width: fit-content;
+}
+
+.email {
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.botao {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+}
+
+footer p {
+    color: white;
+    width: fit-content;
+    margin: auto;
+    line-height: 50px;
+}
