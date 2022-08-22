@@ -80,6 +80,7 @@ blockquote span {
 
 #contato {
     background-color: #eee;
+    padding-bottom: 50px;
 }
 
 #contato div {
@@ -91,7 +92,7 @@ blockquote span {
     font-weight: normal;
     width: fit-content;
     font-size: 50px;
-    margin: auto;
+    margin: 0 auto 15px;
     padding-top: 20px;
 }
 
@@ -103,20 +104,18 @@ blockquote span {
 .endereco {
     position: relative;
     display: inline-block;
-    width: 100px;
-    bottom: 190px;
-    padding-right: 100px;
 }
 
-.endereco p {
-    margin: 10px 0 0 0;
-    font-size: 30px;
+iframe {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 #contato form {
     display: inline-block;
-    padding: 20px 0 50px 0;
     width: fit-content;
+    margin-left: 20px;
 }
 
 .email {
