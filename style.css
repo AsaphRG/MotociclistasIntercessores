@@ -7,11 +7,7 @@ body {
 
 header {
     margin: 0%;
-    background-image: url(radial-gradient.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: black;
-    background-size: contain;
+    background-image: radial-gradient(circle at 50% 50%, white 20%, black 40%);
     height: 600px;
 }
 
