@@ -102,6 +102,9 @@ blockquote span {
 iframe {
     margin: 0;
     padding: 0;
+    height: 23vw;
+    width: 30vw;
+    max-width: 300px;
 }
 
 #contato form {
@@ -111,7 +114,14 @@ iframe {
 
 .email {
     width: 25vw;
+    max-width: 300px;
     margin-bottom: .5vw;
+}
+
+textarea {
+    height: 15vw;
+    width: 30vw;
+    max-width: 300px;
 }
 
 .botao {
