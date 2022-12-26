@@ -142,10 +142,15 @@ footer {
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 5vw;
-    font-size: 2vw;
+    font-size: 3vw;
+    padding: 3vw 0;
+}
+
+footer p {
+    margin: 0;
 }
 
 @media (max-width: 1023px) {
